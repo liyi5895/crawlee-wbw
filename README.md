@@ -1,4 +1,4 @@
-# crawlee-wbw
+# wbw-finetune-crawlee
 
 A custom configuration of [Crawlee](https://github.com/apify/crawlee) set up to crawl [Wait But Why](https://waitbutwhy.com/) blog content using CheerioCrawler.
 
