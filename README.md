@@ -1,9 +1,18 @@
-# Getting started with Crawlee
+# crawlee-wbw
 
-This example uses `PlaywrightCrawler` to recursively crawl https://crawlee.dev using the browser automation library [Playwright](https://playwright.dev).
+A custom configuration of [Crawlee](https://github.com/apify/crawlee) set up to crawl [Wait But Why](https://waitbutwhy.com/) blog content using CheerioCrawler.
 
-You can find more examples and documentation at the following links:
+## Overview
 
-- [Step-by-step tutorial](https://crawlee.dev/docs/introduction) for Crawlee
-- `PlaywrightCrawler` [API documentation](https://crawlee.dev/api/playwright-crawler/class/PlaywrightCrawler)
-- Other [examples](https://crawlee.dev/docs/examples/playwright-crawler)
+This repository is a fork of Crawlee with customized crawling logic specifically for the Wait But Why blog. It uses CheerioCrawler since the blog content is primarily static.
+
+## Modifications
+
+The main changes are in `main.js`, which includes:
+- Configuration for CheerioCrawler
+- Custom data extraction logic for Wait But Why's content structure
+- URL filtering to stay within the blog domain and exclude product pages
+
+## License
+
+This project is licensed under the same terms as the original Crawlee repository.
